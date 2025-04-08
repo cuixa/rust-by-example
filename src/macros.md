@@ -8,6 +8,10 @@ However, unlike macros in C and other languages, Rust macros are expanded into
 abstract syntax trees, rather than string preprocessing, so you don't get
 unexpected precedence bugs.
 
+metagramming, means programming at compile time
+c: string replacement, preprocessing
+rust: syntax tree manipulation
+
 Macros are created using the `macro_rules!` macro.
 
 ```rust,editable

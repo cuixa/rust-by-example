@@ -3,6 +3,9 @@
 The arguments of a macro are prefixed by a dollar sign `$` and type annotated
 with a *designator*:
 
+designators are used in macros to specify the type of the argument.
+types of designators are: [line 55]
+
 ```rust,editable
 macro_rules! create_function {
     // This macro takes an argument of designator `ident` and
